@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/registration-style.css">
+</head>
+<body>
+<form id="registration-form">
+    <div class="container">
+        <h1>Create a new player</h1>
+
+        <hr>
+
+        <label for="username"><b>Username</b></label>
+        <input type="text" placeholder="Enter username" name="username" id="username" required>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="example@example.com" name="email" id="email" required>
+
+        <label for="password"><b>Password</b></label>
+        <input type="password" placeholder="Enter password" name="password" id="password" required>
+
+        <label for="password-repeat"><b>Repeat Password</b></label>
+        <input type="password" placeholder="Repeat password" name="password-repeat" id="password-repeat" required>
+
+        <label for="kingdom-name"><b>Your kingdom's name</b></label>
+        <input type="text" placeholder="Kingdom name" name="kingdom-name" id="kingdom-name" required>
+
+        <hr>
+
+        <div id="response-message" class="response-message hide">
+        </div>
+
+        <button type="submit" class="registerbtn">Sign up</button>
+    </div>
+
+    <div class="container signin">
+        <p>If you already have an account, <a href="/">sign in</a>.</p>
+    </div>
+</form>
+<script type="application/javascript" src="js/registration.js"></script>
+</body>
+</html>

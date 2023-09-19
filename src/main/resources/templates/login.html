@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/registration-style.css">
+</head>
+<body>
+<form id="login-form">
+    <div class="container">
+        <h1>Log in your kingdom</h1>
+
+        <hr>
+
+        <label for="username"><b>Username</b></label>
+        <input type="text" placeholder="Enter username" name="username" id="username" required>
+
+        <label for="password"><b>Password</b></label>
+        <input type="password" placeholder="Enter password" name="password" id="password" required>
+
+        <hr>
+
+        <div id="response-message" class="response-message hide">
+        </div>
+
+        <button type="submit" class="registerbtn">Sign in</button>
+    </div>
+
+    <div class="container signin">
+        <p>If you do not have an account yet, <a href="/registration">sign up</a>.</p>
+    </div>
+</form>
+<script type="application/javascript" src="js/login.js"></script>
+</body>
+</html>

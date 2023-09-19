@@ -1,0 +1,219 @@
+body {
+    background-color: #c2e3ff;
+}
+
+header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    background: #373c3f url(https://www.worldanvil.com/media/cache/cover/uploads/images/cb698e0941fbf582fd1b129d49739b96.png) no-repeat center / cover;
+    color: beige;
+    text-align: center;
+    cursor: pointer;
+    font-size: 30px;
+    letter-spacing: 30px;
+    height: 150px;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    box-shadow: 6px 6px 4px 6px #888888;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 50px 4fr;
+}
+
+#resources {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 5px;
+    text-align: center;
+    font-size: 22px;
+}
+
+#menu {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 5px;
+    text-align: right;
+}
+
+#buildings {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 5px;
+}
+
+#background {
+    background: url(../img/grass.png) no-repeat center / cover;
+    height: 420px;
+    width: 1000px;
+    text-align: center;
+}
+
+#troops {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.troop {
+    max-height: 40px;
+    max-width: 40px;
+}
+
+.townhall {
+    max-height: 150px;
+    max-width: 150px;
+    cursor: pointer;
+}
+
+.academy {
+    max-height: 100px;
+    max-width: 100px;
+    cursor: pointer;
+}
+
+.mine, .farm, .empty-space {
+    max-height: 50px;
+    max-width: 50px;
+    cursor: pointer;
+}
+
+.building-townhall {
+    position: absolute;
+    top: 380px;
+    left: 420px;
+}
+
+.building-space-1 {
+    position: absolute;
+    top: 450px;
+    left: 130px;
+}
+
+.building-space-2 {
+    position: absolute;
+    top: 360px;
+    left: 210px;
+}
+
+.building-space-3 {
+    position: absolute;
+    top: 330px;
+    left: 300px;
+}
+
+.building-space-4 {
+    position: absolute;
+    top: 310px;
+    left: 490px;
+}
+
+.building-space-5 {
+    position: absolute;
+    top: 330px;
+    left: 650px;
+}
+
+.building-space-6 {
+    position: absolute;
+    top: 410px;
+    left: 780px;
+}
+
+.building-space-7 {
+    position: absolute;
+    top: 510px;
+    left: 710px;
+}
+
+.building-space-8 {
+    position: absolute;
+    top: 430px;
+    left: 600px;
+}
+
+.building-space-9 {
+    position: absolute;
+    top: 530px;
+    left: 550px;
+}
+
+.building-space-10 {
+    position: absolute;
+    top: 500px;
+    left: 380px;
+}
+
+.building-space-11 {
+    position: absolute;
+    top: 560px;
+    left: 220px;
+}
+
+.building-space-12 {
+    position: absolute;
+    top: 450px;
+    left: 270px;
+}
+
+.level, .level-townhall, .level-academy {
+    position: absolute;
+    background: yellow;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.level {
+    left: 20px;
+    top: -20px;
+}
+
+.level-townhall {
+    left: 60px;
+    top: -10px;
+}
+
+.level-academy {
+    left: 50px;
+    top: -10px;
+}
+
+.text-townhall {
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    left: 30px;
+    top: 110px;
+}
+
+.text-academy {
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    left: 20px;
+    top: 80px;
+}
+
+.text-mine {
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    left: 5px;
+    top: 50px;
+}
+
+.text-farm {
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    left: 5px;
+    top: 35px;
+}
+
+.resource {
+    max-height: 30px;
+    max-width: 30px;
+}

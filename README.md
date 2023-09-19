@@ -1,0 +1,1 @@
+This project was created over 5 weeks, in a project team of 4 people, in an agile environment, during the project phase of Green Fox Academy's course. The project tasks only covered backend functionalities, so any frontend implementation is just for mockup purposes.

@@ -1,0 +1,83 @@
+{
+  "townhall": "Town Hall",
+  "academy": "Academy",
+  "mine": "Mine",
+  "farm": "Farm",
+  "gold": "Gold",
+  "food": "Food",
+  "troopNames": [
+    "Squire",
+    "Novice Knight",
+    "Knight",
+    "Hardened Knight",
+    "Veteran Knight",
+    "Knight Captain",
+    "Grandmaster Knight",
+    "Royal Guard",
+    "Legendary Knight",
+    "Dragonslayer",
+    "Michael Knight"
+  ],
+  "townhallDescription": "The Town Hall is the center of your kingdom. You can only have buildings with a level not higher than the Town Hall's level. If you lose your Town Hall, your kingdom will be defeated!",
+  "academyDescription": "The Academy allows you to train and upgrade troops up to its own level.",
+  "mineDescription": "The Mine produces Gold over time, at a rate depending on its level.",
+  "farmDescription": "The Farm produces Food over time, at a rate depending on its level.",
+  "newAcademyDescription": "The Academy allows you to train and upgrade troops.",
+  "newMineDescription": "The Mine produces Gold over time.",
+  "newFarmDescription": "The Farm produces Food over time.",
+  "upgradeButton": "Upgrade",
+  "buildButton": "Build",
+  "trainButton": "Train",
+  "changeButton": "Change",
+  "troopsTitleText": "Troops:",
+  "buildTitleText": "Build a building",
+  "buildDescriptionText": "You can build a new building here.",
+  "buildingStatusTexts": {
+    "level": "Level: ",
+    "hp": "Health points: ",
+    "cost": "Cost: ",
+    "buildTime": "Build time: ",
+    "upgradeTime": "Upgrade time: "
+  },
+  "troopTrainTitle": "Train Troop",
+  "troopTrainDescription": "You can train troop here.",
+  "troopListTitle": "Your troops",
+  "troopStatusTexts": {
+    "name": "Name: ",
+    "level": "Level: ",
+    "hp": "Health point: ",
+    "time": "Train time: ",
+    "upgradeTime": "Upgrade time: ",
+    "cost": "Train cost: ",
+    "attack": "Attack: ",
+    "defence": "Defence: "
+  },
+  "changeKingdomNameTitle": "Change your Kingdom Name",
+  "changeKingdomNameDescription": "New Kingdom name: ",
+  "location": "Location: ",
+  "buildingConfigs": {
+    "hp": {
+      "townhall": 200,
+      "academy": 150,
+      "mine": 100,
+      "farm": 100
+    },
+    "costs": {
+      "townhall": 200,
+      "academy": 150,
+      "mine": 100,
+      "farm": 100
+    },
+    "times": {
+      "townhall": 60,
+      "academy": 60,
+      "mine": 60,
+      "farm": 60
+    }
+  },
+  "troopConfigs": {
+    "cost": 25,
+    "time": 30,
+    "hp": 150
+  }
+}
